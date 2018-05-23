@@ -1,13 +1,13 @@
 #git
-ÔÚgit BashÖĞÊ¹ÓÃ
-##³õÊ¼»¯ºÍÌá½»ÃüÁî
-*»ù±¾ºÍlinuxÃüÁî²î²»¶à*
-cd ½øÈëµÄÎÄ¼ş¼Ğ
-ls ²é¿´Ä¿Â¼
-git init ³õÊ¼»¯Îªgit
-git status ²é¿´git×´Ì¬
-git add ÎÄ¼şÃû
-git add . (Ìí¼ÓËùÓĞÎÄ¼ş)
+åœ¨git Bashä¸­ä½¿ç”¨
+##åˆå§‹åŒ–å’Œæäº¤å‘½ä»¤
+**åŸºæœ¬å’Œlinuxå‘½ä»¤å·®ä¸å¤š**
+cd è¿›å…¥çš„æ–‡ä»¶å¤¹
+ls æŸ¥çœ‹ç›®å½•
+git init åˆå§‹åŒ–ä¸ºgit
+git status æŸ¥çœ‹gitçŠ¶æ€
+git add æ–‡ä»¶å
+git add . (æ·»åŠ æ‰€æœ‰æ–‡ä»¶)
 git commit -m "Some messages to explain this commission"
 
 Configuration(need for first committing)
@@ -19,14 +19,14 @@ thymeleaf
 module
 
 #maven
-##³£ÓÃÃüÁî
-*cmdÏîÄ¿¸ùÄ¿Â¼*
-mvn -Pnexus dependency:resolve ½â¾öjarÏÂÔØ²»ÏÂÀ´
+##å¸¸ç”¨å‘½ä»¤
+*cmdé¡¹ç›®æ ¹ç›®å½•*
+mvn -Pnexus dependency:resolve è§£å†³jarä¸‹è½½ä¸ä¸‹æ¥
 
-mvn -Pnexus dependency:tree ÒÔÊ÷ĞÎ½á¹¹²é¿´jar°üÒÀÀµ¹ØÏµ 
+mvn -Pnexus dependency:tree ä»¥æ ‘å½¢ç»“æ„æŸ¥çœ‹jaråŒ…ä¾èµ–å…³ç³» 
 
-mvn -Pnexus dependency:sources ²é¿´jar°üÔ´Âë
+mvn -Pnexus dependency:sources æŸ¥çœ‹jaråŒ…æºç 
 
-ÔÚ¼ÒÊ±»òÍâµØÊ¹ÓÃÃüÁî direct ÀıÈç£º
+åœ¨å®¶æ—¶æˆ–å¤–åœ°ä½¿ç”¨å‘½ä»¤ direct ä¾‹å¦‚ï¼š
 mvn -Pdirect dependency:xxx
-stsÖĞmavenµÄusersettingÉèÖÃdirect.xml
+stsä¸­mavençš„usersettingè®¾ç½®direct.xml
