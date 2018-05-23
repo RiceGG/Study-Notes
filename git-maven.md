@@ -1,7 +1,10 @@
 #git
 在git Bash中使用
+
 ##初始化和提交命令
+
 **基本和linux命令差不多**
+
 cd 进入的文件夹
 ls 查看目录
 git init 初始化为git
