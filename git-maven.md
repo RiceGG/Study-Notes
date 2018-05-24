@@ -1,7 +1,7 @@
-#git
+# git
 
 在git Bash中使用
-##初始化和提交命令
+## 初始化和提交命令
 **基本和linux命令差不多**
 <br>
 cd 进入的文件夹<br>
@@ -22,12 +22,12 @@ Configuration(need for first committing)<br>
 
 git config<br>
 
-##.gitignore
+## .gitignore
 在sts中配置ignore来防止不必要文件提交到github中
 
-#maven
+# maven
 
-##常用命令
+## 常用命令
 
 **cmd项目根目录**<br>
 

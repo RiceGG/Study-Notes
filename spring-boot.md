@@ -1,4 +1,4 @@
-##cmd项目根目录
+## cmd项目根目录
 mvn -Pnexus spring-boot:run<br>
 
 运行spring-boot项目<br>
@@ -11,14 +11,14 @@ java -jar target\bt--SNAPSHOT.jar<br>
 
 运行jar<br>
 
-##在application.properties中修改端口号
+## 在application.properties中修改端口号
 server.port=9999<br>
 
-##启用spring-boot项目需要在main方法中使用
+## 启用spring-boot项目需要在main方法中使用
 
 SpringApplication.run(当前类.class,args);<br>
 
-##CommandLineRunner和ApplicationRunner
+## CommandLineRunner和ApplicationRunner
 这两个是spring-boot的两个接口，都可以在web容器启动是执行。<br>
 
 比如：数据库连接，删除临时文件，清除缓存信息<br>
