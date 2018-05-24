@@ -22,6 +22,9 @@ Configuration(need for first committing)<br>
 
 git config<br>
 
+##.gitignore
+在sts中配置ignore来防止不必要文件提交到github中
+
 #maven
 
 ##常用命令
