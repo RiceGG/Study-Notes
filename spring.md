@@ -10,3 +10,7 @@ AnnotationConfigApplicationContext是ApplicationContext
 SpringApplication.run(当前类.class, args);<br>
 
 new AnnotationConfigApplicationContext(AppConfig.class,AppConfig2.class或xml等配置信息);<br>
+
+#spring junit
+springframework 第十四章<br>
+
