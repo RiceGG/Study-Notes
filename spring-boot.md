@@ -34,5 +34,8 @@ SpringApplication.run(当前类.class,args);<br>
 
 ##spring boot的junit
 
-
-
+##processor
+<dependency>
+<groupId>org.springframework.boot</groupId>
+<artifactId>spring-boot-configuration-processor</artifactId>
+</dependency>
