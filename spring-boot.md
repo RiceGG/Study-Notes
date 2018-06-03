@@ -15,6 +15,10 @@ java -jar target\bt--SNAPSHOT.jar<br>
 
 运行jar包<br>
 
+##参数优先级
+
+主要properties文件<外部properties文件<命令行参数
+
 ## 在application.properties中修改端口号
 server.port=9999<br>
 
@@ -35,7 +39,8 @@ SpringApplication.run(当前类.class,args);<br>
 ##spring boot的junit
 
 ##processor
-<dependency>
-<groupId>org.springframework.boot</groupId>
-<artifactId>spring-boot-configuration-processor</artifactId>
-</dependency>
+引入依赖<br>
+&lt;dependency><br>
+&lt;groupId>org.springframework.boot&lt;/groupId><br>
+&lt;artifactId>spring-boot-configuration-processor&lt;/artifactId><br>
+&lt;/dependency><br>
